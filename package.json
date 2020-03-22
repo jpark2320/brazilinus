@@ -1,0 +1,22 @@
+{
+  "name": "brazilinus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com-personal:jpark2320/brazilinus.git",
+  "author": "jpark2320 <jpark2320@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7"
+  }
+}
