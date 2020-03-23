@@ -35,6 +35,7 @@ export default class MyDocument extends Document {
             href='https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap'
             rel='stylesheet'
           ></link>
+          <link href='/static/styles/normalize.css' rel='stylesheet' />
         </Head>
         <body>
           <Main />

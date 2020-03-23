@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import Card from './components/Card';
-import Layout from './Layout';
+import Card from '../components/Card';
+import Layout from '../components/Layout';
 
 const Title = styled.h1`
   font-size: 24px;
