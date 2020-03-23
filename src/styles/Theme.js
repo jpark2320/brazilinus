@@ -1,5 +1,5 @@
 export default {
   colors: {
-    primary: '#0070f3'
+    primary: '#3d5866'
   }
 };
