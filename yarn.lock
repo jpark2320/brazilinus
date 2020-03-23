@@ -5486,6 +5486,11 @@ styled-jsx@3.2.5:
     stylis "3.5.4"
     stylis-rule-sheet "0.0.10"
 
+styled-reset@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/styled-reset/-/styled-reset-4.1.2.tgz#f04f4d84bb939f41fc1477d808fdc57448a63fc7"
+  integrity sha512-Z/4YQPICbMWSBTfD0yvoQXLaxoPw9/IOYBWYix0VosjonORSmAuS7xmNF9G1hvU/laGEysWCGcCrqt+SYpvbKQ==
+
 stylis-rule-sheet@0.0.10:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/stylis-rule-sheet/-/stylis-rule-sheet-0.0.10.tgz#44e64a2b076643f4b52e5ff71efc04d8c3c4a430"

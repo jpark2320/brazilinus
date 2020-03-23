@@ -7,6 +7,7 @@ const Navigation = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 40px 0px 24px;
+  min-height: 43px;
 `;
 
 const Logo = styled.div`
