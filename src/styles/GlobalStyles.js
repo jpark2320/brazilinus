@@ -5,8 +5,6 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     background-color: #eff3f5;
-    display: flex;
-    justify-content: center;
   }
 `;
 
