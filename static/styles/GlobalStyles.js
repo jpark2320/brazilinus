@@ -8,6 +8,16 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     background-color: #eff3f5;
   }
+  input {
+    outline: none;
+  }
+  div,
+  span {
+    color: #3d5866;
+  }
+  svg {
+    fill: #3d5866;
+  }
 `;
 
 export default GlobalStyle;

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Layout from '../Layout';
+import TextInput from '../TextInput';
 
 const Navigation = styled.nav`
   display: flex;
@@ -32,7 +33,7 @@ export default () => (
         <span>BrazilInUS</span>
       </Logo>
       <Search>
-        <input type='text' placeholder='Search for...' />
+        <TextInput placeholder='Search for...' />
       </Search>
       <Menus>
         <a>Community</a>
