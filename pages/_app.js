@@ -4,6 +4,8 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyles from '../static/styles/GlobalStyles';
 import Theme from '../static/styles/Theme';
 import Navigation from '../components/Navigation';
+import LayoutBody from '../components/LayoutBody';
+import SubNavigation from '../components/SubNavigation';
 
 export default class MyApp extends App {
   render() {
@@ -12,7 +14,10 @@ export default class MyApp extends App {
       <ThemeProvider theme={Theme}>
         <GlobalStyles />
         <Navigation />
-        <Component {...pageProps} />
+        <LayoutBody>
+          <SubNavigation />
+          <Component {...pageProps} />
+        </LayoutBody>
       </ThemeProvider>
     );
   }
