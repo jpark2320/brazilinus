@@ -1,45 +1,35 @@
-import styled from 'styled-components';
+import Link from 'next/link';
 import Layout from '../Layout';
 import TextInput from '../TextInput';
 
-const Navigation = styled.nav`
-  display: flex;
-  -webkit-box-align: center;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 0px 24px;
-  min-height: 43px;
-`;
-
-const Logo = styled.div`
-  margin-right: 15px;
-  span {
-    font-size: 24px;
-    font-weight: 700;
-    color: ${({ theme }) => theme.colors.primary};
-  }
-`;
-
-const Search = styled.div`
-  margin-right: 15px;
-`;
-
-const Menus = styled.div``;
+import { Navigation, Logo, Search, Menus } from './styles';
 
 export default () => (
   <Layout>
     <Navigation>
       <Logo>
-        <span>BrazilInUS</span>
+        <Link href='/'>
+          <a>
+            <span>BrazilInUS</span>
+          </a>
+        </Link>
       </Logo>
       <Search>
         <TextInput placeholder='Search for...' />
       </Search>
       <Menus>
-        <a>Community</a>
-        <a>Housing</a>
-        <a>Jobs</a>
-        <a>Trade</a>
+        <Link href='/forum'>
+          <a>Forum</a>
+        </Link>
+        <Link href='/rent'>
+          <a>Rent</a>
+        </Link>
+        <Link href='/trade'>
+          <a>Trade</a>
+        </Link>
+        <Link href='/jobs'>
+          <a>Jobs</a>
+        </Link>
       </Menus>
     </Navigation>
   </Layout>

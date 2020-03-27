@@ -11,6 +11,13 @@ const GlobalStyle = createGlobalStyle`
   input {
     outline: none;
   }
+  a {
+    text-decoration: none;
+    
+    &:visited {
+      color: #3d5866;
+    }
+  }
   div,
   span {
     color: #3d5866;
